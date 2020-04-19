@@ -1,0 +1,76 @@
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+[[plugins]]
+repo = 'lervag/vimtex'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+# vimでペーストする時に自動的にペーストモードにする
+# https://qiita.com/ryoff/items/ad34584e41425362453e
+[[plugins]]
+repo = 'ConradIrwin/vim-bracketed-paste'
+
+# LSPの導入
+# https://qiita.com/gorilla0513/items/783836797ff84a3a4753
+[[plugins]]
+repo = 'prabirshrestha/async.vim'
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+
+# Markdown
+# https://gist.github.com/mamemomonga/8e4859e30021b51a7cabd3965b5bc1e4
+# preview of markdown
+[[plugins]]
+repo = 'kannokanno/previm'
+# open url from vim
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+# color scheme
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+
+[[plugins]]
+repo = 'KKPMW/moonshine-vim'
+
+[[plugins]]
+repo = 'joshdick/onedark.vim'
+
+[[plugins]]
+repo = 'dracula/vim'
+name = 'dracula'
+
+[[plugins]]
+repo = 'MidnaPeach/neonwave.vim'
+
+[[plugins]]
+repo = 'challenger-deep-theme/vim'
+
+[[plugins]]
+repo = 'felipesousa/rupza'

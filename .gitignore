@@ -1,0 +1,5 @@
+# dein
+nvim/dein/.cache/
+nvim/dein/cache_nvim
+nvim/dein/repos/
+nvim/dein/state_nvim.vim
