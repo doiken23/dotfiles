@@ -29,6 +29,9 @@ hi Comment ctermfg=blue
 " other settings
 set spell
 
+" disable conceal
+let g:tex_conceal=''
+
 " setting of dein.vim
 if &compatible
  set nocompatible
