@@ -23,9 +23,6 @@ repo = 'vim-airline/vim-airline'
 repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
-repo = 'w0rp/ale'
-
-[[plugins]]
 repo = 'airblade/vim-gitgutter'
 
 # vimでペーストする時に自動的にペーストモードにする
@@ -33,31 +30,32 @@ repo = 'airblade/vim-gitgutter'
 [[plugins]]
 repo = 'ConradIrwin/vim-bracketed-paste'
 
-# LSPの導入
-# https://qiita.com/gorilla0513/items/783836797ff84a3a4753
-[[plugins]]
-repo = 'prabirshrestha/async.vim'
+# lsp & auto completion
 [[plugins]]
 repo = 'prabirshrestha/vim-lsp'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete-lsp.vim'
 
 # Markdown
 # https://gist.github.com/mamemomonga/8e4859e30021b51a7cabd3965b5bc1e4
 # preview of markdown
 [[plugins]]
 repo = 'kannokanno/previm'
-# open url from vim
+
+# Wakatime
 [[plugins]]
-repo = 'tyru/open-browser.vim'
+repo = 'wakatime/vim-wakatime'
 
 # color scheme
 [[plugins]]
 repo = 'tomasr/molokai'
-
-[[plugins]]
-repo = 'morhetz/gruvbox'
-
-[[plugins]]
-repo = 'KKPMW/moonshine-vim'
 
 [[plugins]]
 repo = 'joshdick/onedark.vim'
@@ -73,4 +71,13 @@ repo = 'MidnaPeach/neonwave.vim'
 repo = 'challenger-deep-theme/vim'
 
 [[plugins]]
-repo = 'felipesousa/rupza'
+repo = 'whatyouhide/vim-gotham'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+
+[[plugins]]
+repo = 'arcticicestudio/nord-vim'
+
+[[plugins]]
+repo = 'haishanh/night-owl.vim'
