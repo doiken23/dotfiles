@@ -43,6 +43,10 @@ repo = 'prabirshrestha/asyncomplete.vim'
 [[plugins]]
 repo = 'prabirshrestha/asyncomplete-lsp.vim'
 
+# linter & formatter
+[[plugins]]
+repo = 'w0rp/ale'
+
 # Markdown
 # https://gist.github.com/mamemomonga/8e4859e30021b51a7cabd3965b5bc1e4
 # preview of markdown
