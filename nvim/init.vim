@@ -154,20 +154,22 @@ let g:ale_lint_on_save = 1
 let g:ale_lint_on_text_changed = 'never'
 " Linter(コードチェックツール)の設定
 let g:ale_linters = {
-\   'python': ['flake8', 'mypy'],
+\   'python': ['flake8']
 \}
-" ファイル保存時にはFixerを時刻しない
-let g:ale_fix_on_save = 0
+let g:ale_fix_on_save = 1  " ファイル保存時にfix
 " テキスト変更時にはFixerを実行しない
 let g:ale_fix_on_text_changed = 'never'
 " Fixer(コード整形ツール)の設定
 let b:ale_fixers = {
-\   'python': ['autopep8', 'isort'],
+\   'python': ['black', 'isort'],
 \}
 " 余分な空白があるときは警告表示
 let b:ale_warn_about_trailing_whitespace = 0
 " ALE実行時にでる目印行を常に表示
 let g:ale_sign_column_always = 1
+" fixerのオプションを設定
+let g:ale_python_black_options = '--line-length 120'
+let g:ale_python_isort_options = '--line-length 120 --profile black'
 
 " setting of open-browser.vim
 let g:previm_open_cmd = 'open -a Google\ Chrome'
